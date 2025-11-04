@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "name": "Sample Laptop",
+    "description": "Starter product",
+    "price": 1200,
+    "category": "Electronics",
+    "inStock": true
+  },
+  {
+    "id": "1762248111316",
+    "name": "Phone",
+    "description": "A new smartphone",
+    "price": 500,
+    "category": "Electronics",
+    "inStock": true
+  }
+]

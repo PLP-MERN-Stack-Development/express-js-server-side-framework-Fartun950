@@ -1,0 +1,32 @@
+
+### GET all products
+GET http://localhost:3000/api/products
+
+### POST a new product
+POST http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+  "name": "Phone",
+  "description": "A new smartphone",
+  "price": 500,
+  "category": "Electronics",
+  "inStock": true
+}
+
+### Use the ID returned in POST to replace {id} in the requests below
+
+### PUT update product
+PUT http://localhost:3000/api/products/{id}
+Content-Type: application/json
+
+{
+  "name": "Phone Pro",
+  "description": "Updated phone",
+  "price": 700,
+  "category": "Electronics",
+  "inStock": true
+}
+
+### DELETE product
+DELETE http://localhost:3000/api/products/{id}
